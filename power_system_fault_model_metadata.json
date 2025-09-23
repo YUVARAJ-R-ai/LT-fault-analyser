@@ -1,0 +1,37 @@
+{
+  "feature_names": [
+    "RMS_Phase_A",
+    "Peak_Phase_A",
+    "Std_Phase_A",
+    "Mean_Phase_A",
+    "Fundamental_Phase_A",
+    "THD_Phase_A",
+    "ZeroCrossings_Phase_A",
+    "RMS_Phase_B",
+    "Peak_Phase_B",
+    "Std_Phase_B",
+    "Mean_Phase_B",
+    "Fundamental_Phase_B",
+    "THD_Phase_B",
+    "ZeroCrossings_Phase_B",
+    "RMS_Phase_C",
+    "Peak_Phase_C",
+    "Std_Phase_C",
+    "Mean_Phase_C",
+    "Fundamental_Phase_C",
+    "THD_Phase_C",
+    "ZeroCrossings_Phase_C",
+    "Phase_Imbalance",
+    "Zero_Sequence",
+    "Avg_RMS"
+  ],
+  "label_classes": [
+    "Ground_Fault",
+    "LT_Line_Cut",
+    "Normal",
+    "Overload",
+    "Short_Circuit"
+  ],
+  "model_name": "Random Forest",
+  "scaler_needed": false
+}
