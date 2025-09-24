@@ -141,7 +141,7 @@ The final step is a user-facing application built with Streamlit. This dashboard
 The model training process generates several key visualizations that help us understand its performance and behavior.
 ### Example Waveforms
 
-  ![[example_waveforms.png]]
+  ![Example Waveforms](images/example_waveforms.png)
 
 This plot displays a representative sample of the three-phase current waveforms for each of the five simulated scenarios. It serves as a visual guide to what the model is learning to differentiate.
 
@@ -157,7 +157,7 @@ This plot displays a representative sample of the three-phase current waveforms 
 
 ### Model Performance Comparison
 
-  ![[model_comparison.png]]
+![Model comparision](images/model_comparison.png)
 
 This bar chart compares the performance of the four candidate models.
 
@@ -168,7 +168,7 @@ This bar chart compares the performance of the four candidate models.
 **Conclusion:** All four models performed exceptionally well on this synthetic dataset. The **Random Forest** model was chosen as the best because it achieved perfect test accuracy (1.0) and a very high, stable cross-validation score (1.0), making it both highly accurate and reliable.
 
 ### Feature Importance
-![[feature_importance.png]]
+![Feature Importance](images/feature_importance.png)
 
 This plot reveals which features the final Random Forest model considered most important when making its classification decisions.
 
@@ -180,7 +180,7 @@ This plot reveals which features the final Random Forest model considered most i
 
 ### Confusion Matrix
 
-  ![[confusion_matrix.png]]
+  ![Confusion Matrix](images/confusion_matrix.png)
   
 A confusion matrix provides a detailed breakdown of the model's prediction accuracy for each class.
 
