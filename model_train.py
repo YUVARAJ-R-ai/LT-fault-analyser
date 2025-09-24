@@ -278,6 +278,10 @@ class PowerSystemFaultClassifier:
     
     def predict_sample(self, features):
         """Predict a single sample."""
+        # --- ADD THIS SECTION ---
+        # Create a DataFrame for prediction, ensuring feature names match training
+        features_df = pd.DataFrame(features_np.reshape(1, -1), columns=self.feature_names)
+        # --- END ADDITION ---
         if self.best_model_name in ['SVM', 'Neural Network']:
             features_scaled = self.scaler.transform(features.reshape(1, -1))
             prediction = self.best_model.predict(features_scaled)[0]
